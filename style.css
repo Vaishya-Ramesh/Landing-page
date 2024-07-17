@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0, 0.4)50%),url(bgImg.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.nav
+{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+}
+.icon
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+    display: flex;
+}
+.logo{
+    color: rgb(255, 114, 21);
+    font-size: 25px;
+    padding:30px 30px 0px 80px;
+}
+.logo h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu
+{
+    width: 800px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+li{
+    list-style: none;
+    margin: 40px;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+    
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(255, 114, 21);
+}
+.search{
+    display: flex;
+    width: 330px;
+    float: left;
+    margin-left: 100px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(255, 114, 21);
+    margin-top: 30px;
+    color: white;
+    border-right: none;
+    font-size: 18px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn
+{
+    width: 80px;
+    height:40px;
+    background: rgb(255, 114, 21);
+    border: 2px solid rgb(255, 114, 21);
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content
+{
+    color: rgb(190, 190, 190);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+.content span{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 114, 21);
+}
+.par{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    padding-top: 10px;
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .join{
+    width:160px;
+    height: 40px;
+    background: rgb(255, 114, 21);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.content .join a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+.join:hover{
+    background: rgb(190, 190, 190);
+    transition: 0.4s ease;
+}
+.form
+{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.6)50%,rgba(0, 0, 0, 0.6)50%);
+    position: absolute;
+    top:-20px;
+    left:870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    text-align: center;
+    color: rgb(255, 114, 21);
+    font-size: 22px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 114, 21);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    margin-top: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.form input:focus{
+    outline:none;
+}
+::placeholder{
+    color: white;
+}
+.btnn{
+    margin: 25px 0;
+    width:240px;
+    height:40px;
+    background: rgb(255, 114, 21);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.btnn a{
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btnn:hover{
+    background: white;
+}
+.form .link{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: rgb(255, 114, 21);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.liw{
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form .icon a{
+    color: white;
+}
+.icon ion-icon{
+    font-size: 26px;
+    padding: 5px 11px;
+    transition: 0.4s ease;
+}
+.icon ion-icon:hover{
+    color: rgb(255, 114, 21);
+}
